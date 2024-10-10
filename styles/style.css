@@ -1,6 +1,7 @@
 * {
     font-family: "Merriweather", serif;
 }
+
 html {
     scroll-behavior: smooth;
 }
@@ -14,18 +15,14 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15;
     padding-top: 30px;
 }
-
-.banner-img {}
 
 .banner-head {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    gap: 20;
     padding: 0px;
 }
 
@@ -51,6 +48,7 @@ html {
     font-size: 20px;
     font-weight: 600;
     text-align: center;
+    cursor: pointer;
 }
 
 #hero {
@@ -65,6 +63,7 @@ html {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .hero-title {
@@ -85,19 +84,45 @@ html {
 .hero-sec {
     display: flex;
     justify-content: space-between;
-    gap: 32;
     padding: 48px;
     border-radius: 16px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    margin-bottom: 32px;
+}
+
+.shero-title {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.shero-text {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    opacity: 0.8;
+    margin-bottom: 32px;
+}
+
+.shero-btn {
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    padding: 12px 20px;
+    cursor: pointer;
 }
 
 .hero-sec-ex {
     display: flex;
     justify-content: space-between;
-    gap: 32;
     padding: 48px;
     border-radius: 16px;
     background: linear-gradient(270.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    margin-bottom: 32px;
 }
 
 #legend {
@@ -105,7 +130,6 @@ html {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    gap: 48;
     padding: 0px;
 }
 
@@ -116,7 +140,6 @@ html {
     padding: 32px;
     height: 577px;
     width: 1030px;
-    margin: 35px 0px;
 }
 
 iframe {
@@ -140,8 +163,7 @@ iframe {
     justify-content: flex-start;
     align-items: center;
     padding: 0px;
-    margin: 48px 0px;
-    gap: 30px;
+    gap: 20px;
 }
 
 .master-html {
@@ -156,8 +178,25 @@ iframe {
     padding: 20px;
 }
 
+.master-title {
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+}
+
+.master-text {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    opacity: 0.8;
+}
+
 .master-btn {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
     text-decoration-line: underline;
+    cursor: pointer;
 }
 
 #bye {
@@ -175,7 +214,6 @@ iframe {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 24;
     padding: 0px;
 }
 
@@ -209,6 +247,7 @@ form input {
     padding: 20px;
     font-size: 16px;
     outline: none;
+    cursor: pointer;
 }
 
 .bye-btn {
