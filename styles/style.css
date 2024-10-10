@@ -1,6 +1,9 @@
 * {
     font-family: "Merriweather", serif;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 #banner {
     background-image: url(../assets/Hero-bg.png);
